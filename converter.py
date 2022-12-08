@@ -16,6 +16,7 @@ class Window(object):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(299, 305)
         MainWindow.setFixedSize(299, 305)
+        MainWindow.setWindowIcon(QtGui.QIcon('converter.png'))
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setStyleSheet("#centralwidget {background-color: rgb(20, 20, 40);}")
         self.centralwidget.setObjectName("centralwidget")
